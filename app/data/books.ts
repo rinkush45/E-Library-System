@@ -17,7 +17,7 @@ export const books: Book[] = [
     id: '2',
     title: '1984',
     author: 'George Orwell',
-    cover: '/images/.svg',
+    cover: 1984,
     description: 'A dystopian social science fiction novel.',
     category: 'Science Fiction'
   },
