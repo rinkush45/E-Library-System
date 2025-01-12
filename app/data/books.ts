@@ -1,11 +1,12 @@
 import { Book } from '../types/book';
+import TheGreatGatsby from '../images/TheGreatGatsby.jpg';
 
 export const books: Book[] = [
   {
     id: '1',
     title: 'The Great Gatsby',
     author: 'F. Scott Fitzgerald',
-    cover: 'https://source.unsplash.com/random/400x600?book',
+    cover: TheGreatGatsby,
     description: 'A story of decadence and excess.',
     category: 'Classic'
   },
@@ -13,7 +14,7 @@ export const books: Book[] = [
     id: '2',
     title: '1984',
     author: 'George Orwell',
-    cover: '/images/The-Great-Gatsby.svg',
+    cover: '/images/.svg',
     description: 'A dystopian social science fiction novel.',
     category: 'Science Fiction'
   },

@@ -8,7 +8,7 @@ const nextConfig = {
         pathname: '/random/**',
       },
     ],
-    domains: ['source.unsplash.com'],
+    domains: ['www.istockphoto.com', 'drive.google.com'],
   },
 };
 
