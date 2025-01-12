@@ -1,5 +1,8 @@
 import { Book } from '../types/book';
 import TheGreatGatsby from '../images/TheGreatGatsby.jpg';
+import 1984 from '../images/1984.jpg';
+import PrideAndPrejudice from '../images/PrideAndPrejudice.jpg';
+import theshiv
 
 export const books: Book[] = [
   {
@@ -22,7 +25,7 @@ export const books: Book[] = [
     id: '3',
     title: 'Pride and Prejudice',
     author: 'Jane Austen',
-    cover: 'https://source.unsplash.com/random/400x600?novel',
+    cover: PrideAndPrejudice,
     description: 'A romantic novel of manners.',
     category: 'Romance'
   },
