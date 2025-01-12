@@ -1,8 +1,10 @@
 import { Book } from '../types/book';
 import TheGreatGatsby from '../images/TheGreatGatsby.jpg';
-import 1984 from '../images/1984.jpg';
+import NineteenEightyFour from '../images/1984.jpeg';
 import PrideAndPrejudice from '../images/PrideAndPrejudice.jpg';
-import theshiv
+import TheShivSutras from '../images/TheShivSutras.jpg';
+import Monto from '../images/Monto.jpg';
+
 
 export const books: Book[] = [
   {
@@ -17,7 +19,7 @@ export const books: Book[] = [
     id: '2',
     title: '1984',
     author: 'George Orwell',
-    cover: 1984,
+    cover: NineteenEightyFour,
     description: 'A dystopian social science fiction novel.',
     category: 'Science Fiction'
   },
@@ -31,18 +33,18 @@ export const books: Book[] = [
   },
   {
     id: '4',
-    title: 'The Hobbit',
-    author: 'J.R.R. Tolkien',
-    cover: 'https://source.unsplash.com/random/400x600?fantasy',
-    description: "A fantasy novel about a hobbit's journey.",
-    category: 'Fantasy'
+    title: 'The Shiv Sutras',
+    author: 'Ranjit Choudhri',
+    cover: TheShivSutras,
+    description: "A book about the Shiv Sutras",
+    category: 'Religious'
   },
   {
     id: '5',
-    title: 'To Kill a Mockingbird',
-    author: 'Harper Lee',
-    cover: 'https://source.unsplash.com/random/400x600?classic',
-    description: 'A story of racial injustice and loss of innocence.',
+    title: 'The story of monto',
+    author: 'John finegan and mercier',
+    cover: Monto,
+    description: 'A story of autor and his journeyj',
     category: 'Classic'
   }
 ];
