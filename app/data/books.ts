@@ -1,9 +1,9 @@
 import { Book } from '../types/book';
 import TheGreatGatsby from '../images/TheGreatGatsby.jpg';
 import NineteenEightyFour from '../images/1984.jpeg';
-import PrideAndPrejudice from '../images/PrideAndPrejudice.jpg';
-import TheShivSutras from '../images/TheShivSutras.jpg';
-import Monto from '../images/Monto.jpg';
+import PrideAndPrejudice from '../images/prideandprejudice.jpg';
+import TheShivSutras from '../images/theshivsutras.jpeg';
+import Monto from '../images/monto.jpeg';
 
 
 export const books: Book[] = [
