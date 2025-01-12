@@ -1,4 +1,4 @@
- # This is a E-Library System Project based on [Next.js](https://nextjs.org/) project bootstrapped with
+ # This is a E-Library System Project based on [Next.js](https://nextjs.org/).
 
 ## Getting Started
 
